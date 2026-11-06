@@ -1,10 +1,5 @@
 namespace MiniEcommerce.Dominio;
 
-public sealed record ItemPedido(Guid ProdutoId, string Nome, decimal PrecoUnitario, int Quantidade)
-{
-    public decimal Subtotal => PrecoUnitario * Quantidade;
-}
-
 public sealed class Pedido
 {
     public Guid Id { get; } = Guid.NewGuid();

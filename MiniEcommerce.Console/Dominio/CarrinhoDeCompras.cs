@@ -1,10 +1,5 @@
 namespace MiniEcommerce.Dominio;
 
-public sealed record ItemCarrinho(Produto Produto, int Quantidade)
-{
-    public decimal Subtotal => Produto.Preco * Quantidade;
-}
-
 public sealed class CarrinhoDeCompras
 {
     private readonly List<ItemCarrinho> itens = [];
