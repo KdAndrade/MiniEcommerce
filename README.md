@@ -108,9 +108,3 @@ Os commits desta atividade usam `chore`, `test`, `feat`, `refactor` e `docs`, co
 ## Limites do exercício
 
 Os dados ficam em memória e são perdidos ao encerrar. O programa atende um usuário por execução; não oferece persistência, pagamentos, frete ou operações concorrentes. Essas funcionalidades não fazem parte do enunciado.
-
-## Entrega
-
-Repositório público: [KdAndrade/MiniEcommerce](https://github.com/KdAndrade/MiniEcommerce).
-
-Conforme a lista de exercícios, cada integrante deve enviar o link do repositório individualmente no ambiente de entrega da disciplina.
